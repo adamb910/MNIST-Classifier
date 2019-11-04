@@ -1,0 +1,52 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (onlabCPUtester.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\main.cpp(4,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\main.cpp : message : see previous definition of '_CRT_SECURE_NO_WARNINGS'
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.h(47,23): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.h(57,23): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.h(130,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.h(141,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.h(207,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Transport.h(17,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Transport.h(36,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Transport.h(49,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Transport.h(66,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ProxyTransport.h(15,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ProxyTransport.h(24,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(103,33): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(113,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(306,17): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(307,8): warning C4101: 'j': unreferenced local variable
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Data.h(38,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Data.h(46,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Data.h(56,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Data.h(67,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:             _Rep=std::chrono::system_clock::rep
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(63,23): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(70,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(81,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(166,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(168,23): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(38,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(84,1): warning C4305: '=': truncation from 'double' to 'float'
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(98,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(100,15): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(124,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(130,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(208,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(249,22): warning C4018: '<': signed/unsigned mismatch
+  onlabCPU.vcxproj -> F:\Egyetem\6.felev\Önlabor\onlabCPU\Debug\onlabCPU.lib

@@ -1,0 +1,4 @@
+﻿  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+Activations.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library F:\Egyetem\6.felev\╓nlabor\onlabCPU\Debug\CLIWrapper.lib and object F:\Egyetem\6.felev\╓nlabor\onlabCPU\Debug\CLIWrapper.exp
+  CLIWrapper.vcxproj -> F:\Egyetem\6.felev\Önlabor\onlabCPU\Debug\CLIWrapper.dll

@@ -1,0 +1,71 @@
+void onlabor::ConvLayer::Backprop(Transport deltas, Transport weightsOfNext)
+{
+	//return;
+	Transport error = Transport(deltas.matrices.size());
+	//Transport n_delta_w = Transport(deltas.matrices.size());
+
+	Transport primes = z;
+
+
+	Transport prevZ;
+	if (prev != nullptr)
+	{
+		prevZ = prev->GetZs();
+	}
+	else
+	{
+		prevZ = prevActivations;
+	}
+
+
+
+	for (int i = 0; i < prevZ.matrices.size(); i++)
+	{
+		prevZ.matrices.at(i).Rotate180();
+		for (int j = 0; j < prevZ.matrices.at(i).content.size(); j++)
+		{
+			prevZ.matrices.at(i).content[j] = activation.Activate(prevZ.matrices.at(i).content[j]);
+		}
+	}
+
+
+	for (int j = 0; j < outchannels; j++)
+	{
+		weightsOfNext.matrices.at(j).Rotate180();
+		for (int i = 0; i < primes.matrices.size(); i++)
+		{
+			primes.matrices[i].content = activation.Prime(primes.matrices[i].content);
+		}
+
+		//error.matrices.at(j) = deltas.matrices.at(j).Conv2D(weightsOfNext.matrices.at(j));
+		error.matrices.at(j) = weightsOfNext.matrices.at(j).Conv2D(deltas.matrices.at(j));
+
+		error.matrices.at(j) = error.matrices.at(j).Multiply(primes.matrices.at(j));
+
+		/*for (int i = 0; i < deltas.content.size(); i++)
+		{
+			convRight.at(j).content[i] = weightsOfNext.content[i] * z.at(j).content[i];
+		}*/
+
+		for (int i = 0; i < inchannels; i++)
+		{
+			n_delta_w.at(j).weights.at(i) = prevZ.matrices.at(i).Conv2D(error.matrices.at(j));
+		}
+
+	}
+	backpropCount++;
+	Transport myWeights = Transport();
+	for (int i = 0; i < channels.size(); i++)
+	{
+		for (int j = 0; j < acts.matrices.size(); j++)
+		{
+			myWeights.matrices.push_back(channels.at(i).weights.at(j));
+		}
+	}
+
+	if (prev != nullptr)
+	{
+		prev->Backprop(error, myWeights);
+	}
+
+}

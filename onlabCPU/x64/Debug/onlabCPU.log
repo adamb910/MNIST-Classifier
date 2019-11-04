@@ -1,0 +1,76 @@
+﻿  pch.cpp
+  Activations.cpp
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Activations.cpp(71,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  ConvLayer.cpp
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Activations.cpp(77,12): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:             _Rep=std::chrono::system_clock::rep
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(70,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(81,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.cpp(112,9): warning C4101: 'n': unreferenced local variable
+  Costs.cpp
+  cpuszorzas.cpp
+  FCLayer.cpp
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.cpp(323,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(183,38): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(183,38): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(183,38): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(183,38): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(183,38): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(189,36): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(189,36): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(189,36): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(189,36): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(189,36): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(219,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(376,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  gpuszorzas.cpp
+  IntermediateLayer.cpp
+  Layer.cpp
+  main.cpp
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\FCLayer.cpp(377,32): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(103,33): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(113,22): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(306,17): warning C4018: '<': signed/unsigned mismatch
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\readMNIST.h(307,8): warning C4101: 'j': unreferenced local variable
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Data.h(97,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244: '=': conversion from 'int' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(48,33): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:             _Rep=std::chrono::system_clock::rep
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(60,76): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244: '=': conversion from 'double' to '_Ty', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         with
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         [
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:             _Ty=float
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(65,33): warning C4244:         ]
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(70,14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\ConvLayer.h(81,27): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(36,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Matrices.cpp
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Network.h(82,1): warning C4305: '=': truncation from 'double' to 'float'
+  MatrixOp.cpp
+  onlabCPU.cpp
+  SoftmaxLayer.cpp
+  Generating Code...
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.cpp(203,15): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+F:\Egyetem\6.felev\Önlabor\onlabCPU\onlabCPU\Matrices.h(212): warning C4172: returning address of local variable or temporary: ret
+  onlabCPU.vcxproj -> F:\Egyetem\6.felev\Önlabor\onlabCPU\x64\Debug\onlabCPU.exe

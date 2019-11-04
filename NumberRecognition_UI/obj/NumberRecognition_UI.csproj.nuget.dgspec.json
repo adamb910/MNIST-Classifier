@@ -1,0 +1,110 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\NumberRecognition_UI\\NumberRecognition_UI.csproj": {}
+  },
+  "projects": {
+    "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\CLIWrapper\\CLIWrapper.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\CLIWrapper\\CLIWrapper.vcxproj",
+        "projectName": "CLIWrapper",
+        "projectPath": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\CLIWrapper\\CLIWrapper.vcxproj",
+        "frameworks": {
+          "native": {
+            "projectReferences": {
+              "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\onlabCPU\\onlabCPU.vcxproj": {
+                "projectPath": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\onlabCPU\\onlabCPU.vcxproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "native": {}
+      }
+    },
+    "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\NumberRecognition_UI\\NumberRecognition_UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\NumberRecognition_UI\\NumberRecognition_UI.csproj",
+        "projectName": "NumberRecognition_UI",
+        "projectPath": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\NumberRecognition_UI\\NumberRecognition_UI.csproj",
+        "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+        "outputPath": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\NumberRecognition_UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\CLIWrapper\\CLIWrapper.vcxproj": {
+                "projectPath": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\CLIWrapper\\CLIWrapper.vcxproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\onlabCPU\\onlabCPU.vcxproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\onlabCPU\\onlabCPU.vcxproj",
+        "projectName": "onlabCPU",
+        "projectPath": "F:\\Egyetem\\6.felev\\Önlabor\\onlabCPU\\onlabCPU\\onlabCPU.vcxproj"
+      },
+      "frameworks": {
+        "native": {}
+      }
+    }
+  }
+}
